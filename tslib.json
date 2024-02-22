@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+      "lib": ["es2017", "dom", "esnext.asynciterable", "scripthost", "es2018.asyncgenerator"]
+    }
+  }
+  
