@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve ",
+    "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "refactor": "ts-refactor",
-    "capture": "capture"
+    "capture": "capture",
+    "generate": "generate-tests"
   },
   "private": true,
   "dependencies": {
@@ -20,18 +21,9 @@
     "@angular/platform-browser": "^16.2.0",
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
-    "@bolt/components-device-viewer": "^5.8.0",
-    "android-avd-manager": "^1.0.1",
-    "easy-android-emulator": "^1.1.0",
-    "launch-emulator": "^0.1.1",
-    "mobile-devices-controller": "^5.2.3",
     "ng-capture-screenshoots": "^15.1.5",
-    "ng-emulator-android-ios": "^5.0.1",
-    "ng-social-media-share": "^8.0.0",
-    "rn-run-android": "^0.0.1-beta.5",
-    "run-emu": "^1.0.0",
+    "ng-chatbot-angular": "^16.3.7",
     "rxjs": "~7.8.0",
-    "screenshooter-cli": "^0.1.0",
     "ts-file-refactor": "^5.0.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"

@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { TestComponent } from './test/test.component';
+import { NgChatbotAngularModule } from 'ng-chatbot-angular';
+
 
 
 @NgModule({
@@ -12,8 +14,9 @@ import { TestComponent } from './test/test.component';
     ],
     imports: [
         BrowserModule,
-        AppRoutingModule        
-    ],
+        AppRoutingModule,
+        NgChatbotAngularModule
+        ],
     providers: [],
     bootstrap: [AppComponent]
 })

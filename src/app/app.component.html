@@ -2,15 +2,12 @@
 <router-outlet>
 
 </router-outlet>
-<div>
-  <a routerLink="/child1">Child 1</a>
-</div>
-<div>
-  <a routerLink="/child2">Child 2</a>
-</div>
-<div>
-  <a routerLink="/child3">Child 3</a>
-</div>
-<div>
-  <a routerLink="/test">Go to test Component</a>
-</div>
+
+
+
+<ng-chatbot-angular
+  [chatConfig]="config"
+  (onMessageInput)="onMessageInput($event)"
+  [serverResponse]="responses[responseIndex]">
+</ng-chatbot-angular>
+
