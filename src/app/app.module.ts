@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { TestComponent } from './test/test.component';
 import { NgChatbotAngularModule } from 'ng-chatbot-angular';
+import { CreditCardFormModule } from 'ng-payment-card-form';
 
 
 
@@ -15,9 +16,11 @@ import { NgChatbotAngularModule } from 'ng-chatbot-angular';
     imports: [
         BrowserModule,
         AppRoutingModule,
-        NgChatbotAngularModule
+        NgChatbotAngularModule,
+        CreditCardFormModule
         ],
     providers: [],
-    bootstrap: [AppComponent]
+    bootstrap: [AppComponent],
+    
 })
 export class AppModule {}
